@@ -1,0 +1,4 @@
+Logger instance created.
+Log: This is the first message.
+Log: This is the second message.
+Both logger1 and logger2 are the same instance.
