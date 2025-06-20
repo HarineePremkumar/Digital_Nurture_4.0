@@ -1,0 +1,27 @@
+Analysis:
+
+1. Linear Search:
+Time Complexity: O(n)
+
+Best Case: O(1) (if the item is found at the beginning)
+
+Worst Case: O(n) (if the item is last or not present)
+
+Use Case: When the product list is small or unsorted.
+
+2. Binary Search:
+Time Complexity: O(log n)
+
+Best Case: O(1) (if the item is exactly in the middle)
+
+Worst Case: O(log n)
+
+Requirement: The product list must be sorted.
+
+Use Case: Ideal for large datasets where fast lookup is needed.
+
+Conclusion:
+
+Use Linear Search for simplicity or small unsorted data.
+
+Use Binary Search for large and sorted data for faster performance.

@@ -1,0 +1,28 @@
+Analysis:
+
+1. Recursive Forecasting
+
+Time Complexity: O(n)
+
+Space Complexity: O(n) due to recursive call stack
+
+Formula:
+FutureValue(n) = FutureValue(n - 1) * (1 + growthRate)
+
+Use Case: Conceptual or small inputs
+
+Drawback: Inefficient for large n (stack overflow risk)
+
+2. Iterative Forecasting (Optimized)
+
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+
+Use Case: Better for large n, avoids stack overflows
+
+Conclusion:
+
+Recursion is helpful to understand the problem but not optimal for large years.
+
+Iterative solution is more practical and memory-efficient.
